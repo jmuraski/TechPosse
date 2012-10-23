@@ -15,9 +15,9 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: wolverine_development
+  database: blog_dev
   pool: 5
-  username: wolverine
+  username: blog_dev
   password:
 
   # Connect on a TCP socket. Omitted by default since the client uses a
@@ -41,15 +41,15 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: wolverine_test
+  database: blog_test
   pool: 5
-  username: wolverine
+  username: blog_test
   password:
 
 production:
   adapter: postgresql
   encoding: unicode
-  database: wolverine_production
+  database: blog
   pool: 5
-  username: wolverine
+  username: blog
   password:
